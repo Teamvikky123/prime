@@ -1,0 +1,212 @@
+body {
+	font-family: Arial, sans-serifs;
+	margin: 0;
+	padding: 0;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+header {
+	background-color: #4a3872;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	width: 1300px;
+	border-radius: 20px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+nav li {
+	margin-right: 20px;
+}
+.search-bar {
+	position: absolute;
+	top: 120%;
+	right: 180px;
+	transform: translateY(-50%);
+	color: #5f67d1;
+	border-radius: 20px;
+	
+}
+.search-bar input[type="search"] {
+	padding: 8px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background-color: #a8aace;
+}
+.search-bar button[type="button"] {
+	padding: 10px 20px;
+	background-color: #333;
+	color: #88a8e6;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+.search-bar button[type="button"] :hover {
+	color: #cf1616;
+	transition: 0.5;
+	background-color: #cf1616;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+.hero {
+	
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	background-size: 90% 200px;
+	background-position: 30% 80%;
+	height: 200px;
+    width: 400px;
+    
+    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+}
+.collections {
+	margin-top: 50px;
+}
+.collection {
+	margin-bottom: 50px;
+}
+.collection img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.featured-products {
+	margin-top: 50px;
+}
+.product {
+	margin-bottom: 50px;
+}
+.product img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+footer {
+	background-color: #000000;
+	padding: 10px
+}
+.social-media {
+    color: black;
+}
+.product {
+    margin-bottom: 50px;
+}
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product button[type="button"] {
+    padding: 10px 20px;
+    background-color: #e40a0a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* assed transiion effect*/
+}
+.product button[type="button"]:hover {
+    background-color: #cf1616; /* changed background color on hover*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* added box shadow on hover*/
+}
+.collection4 {
+	margin-bottom: 20px;
+}
+.collection4 img {
+	width: 50%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.new img{
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
+	border-radius: 10px;
+}
+.new {
+	margin-bottom: 50px;
+}
+nav li :hover {
+	color: #5f67d1;
+	border-radius: 20px;
+	border: #333;
+	box-shadow: #333;
+	transform-style: preserve-3d;
+	transition-duration: 0.2s;
+
+}
+button :hover {
+	color: #3b3c7a;
+}
+nav{
+	width: 750px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 15px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 20px black;
+}
+nav a {
+	color: #000000;
+	text-decoration: none;
+	padding: 5px 12px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+nav a :hover{
+	transition: 0.30s;
+	background: #7c57d3;
+	color: #ffffff;
+}
+
+button{
+    background-color: rgb(120, 129, 170);
+	color: white;
+	border-radius: 19px;
+}
+
+button:hover {
+	background-color: #000000;
+
+	
+}
+
+.all {
+	border: 2px solid black;
+}
+
+td{
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: #dddde6;
+}
